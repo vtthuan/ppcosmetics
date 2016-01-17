@@ -261,7 +261,6 @@ $(document).delegate('#button-register', 'click', function() {
                             });
 
 							$('#collapse-shipping-method .panel-body').html(html);
-
 							$('#collapse-shipping-method').parent().find('.panel-heading .panel-title').html('<a href="#collapse-shipping-method" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_shipping_method; ?> <i class="fa fa-caret-down"></i></a>');
 
    							$('a[href=\'#collapse-shipping-method\']').trigger('click');
@@ -378,13 +377,11 @@ $(document).delegate('#button-payment-address', 'click', function() {
                     dataType: 'html',
                     success: function(html) {
                         $('#collapse-shipping-method .panel-body').html(html);
-
-
+						
                     $('#collapse-shipping-method').parent().find('.panel-heading .panel-title').html('<a href="#collapse-shipping-method" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_shipping_method; ?> <i class="fa fa-caret-down"></i></a>');
 
                     $('a[href=\'#collapse-shipping-method\']').trigger('click');
 
-                    $('#collapse-shipping-method').parent().find('.panel-heading .panel-title').html('<?php echo $text_checkout_shipping_method; ?>');
                     $('#collapse-payment-method').parent().find('.panel-heading .panel-title').html('<?php echo $text_checkout_payment_method; ?>');
                     $('#collapse-checkout-confirm').parent().find('.panel-heading .panel-title').html('<?php echo $text_checkout_confirm; ?>');
                 },
