@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = 'Flat Rate 3';
+$_['heading_title']    = '<font color="green"><b>Giao hàng tận nơi</b></font>';
 
 // Text
 $_['text_shipping']    = 'Shipping';

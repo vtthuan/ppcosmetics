@@ -1,7 +1,7 @@
 <?php
 // Text
 $_['text_information']  = 'Thông tin';
-$_['text_service']      = 'Dịch vụ';
+$_['text_service']      = 'Quản Lý Tài khoản';
 $_['text_extra']        = 'Chăm sóc Khách hàng';
 $_['text_contact']      = 'Liên hệ';
 $_['text_return']       = 'Đổi / Trả hàng';

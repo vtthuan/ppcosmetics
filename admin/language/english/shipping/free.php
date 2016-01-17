@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = 'Free Shipping';
+$_['heading_title']    = '<font color="green"><b>Free shipping</b></font>';
 
 // Text
 $_['text_shipping']    = 'Shipping';

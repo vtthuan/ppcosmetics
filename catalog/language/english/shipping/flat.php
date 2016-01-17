@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'Flat Rate';
-$_['text_description'] = 'Flat Shipping Rate';
+$_['text_title']       = 'Giao trong 2 ngày';
+$_['text_description'] = 'Giao trong 2 ngày';

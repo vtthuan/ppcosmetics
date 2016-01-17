@@ -4,13 +4,13 @@ $_['heading_title']                  = 'Thanh Toán';
 
 // Text
 $_['text_cart']                      = 'Giỏ Hàng';
-$_['text_checkout_option']           = 'Tùy Chọn Thanh Toán';
-$_['text_checkout_account']          = 'Tài Khoản &amp; Chi Tiết Thanh Toán';
-$_['text_checkout_payment_address']  = 'Địa chỉ Thanh Toán';
-$_['text_checkout_shipping_address'] = 'Địa chỉ nhận Hàng';
-$_['text_checkout_shipping_method']  = 'Phương Thức Giao Hàng';
-$_['text_checkout_payment_method']   = 'Phương Thức Thanh Toán';
-$_['text_checkout_confirm']          = 'Xác Nhận Đơn Hàng';
+$_['text_checkout_option']           = 'Bước 1: Tùy Chọn Thanh Toán';
+$_['text_checkout_account']          = 'Bước 2: Tài Khoản &amp; Chi Tiết Thanh Toán';
+$_['text_checkout_payment_address']  = 'Bước 2: Địa chỉ Thanh Toán';
+$_['text_checkout_shipping_address'] = 'Bước 3: Địa chỉ nhận Hàng';
+$_['text_checkout_shipping_method']  = 'Bước 4: Phương Thức Giao Hàng';
+$_['text_checkout_payment_method']   = 'Bước 5: Phương Thức Thanh Toán';
+$_['text_checkout_confirm']          = 'Bước 6: Xác Nhận Đơn Hàng';
 $_['text_modify']                    = 'Thay Đổi &raquo;';
 $_['text_new_customer']              = 'Khách Hàng Mới';
 $_['text_returning_customer']        = 'Khách Hàng Cũ';
