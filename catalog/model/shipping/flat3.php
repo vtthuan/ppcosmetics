@@ -12,6 +12,11 @@ class ModelShippingFlat3 extends Model {
 		} else {
 			$status = false;
 		}
+		if (get_class($this)!='ModelShippingFree') {
+            if (($this->config->get('free_status') == 1) && (float)$this->cart->getTotal() >= $this->config->get('free_total')) {
+                $status = false;
+            }
+        }
 
 		$method_data = array();
 

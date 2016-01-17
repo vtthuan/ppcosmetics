@@ -1,5 +1,5 @@
 <?php
 // Text
-$_['text_title']       = 'Phí cố định';
-$_['text_description'] = 'Phí vận chuyển cố định';
+$_['text_title']       = 'Giao trong 2 ngày';
+$_['text_description'] = 'Giao trong 2 ngày';
 ?>
